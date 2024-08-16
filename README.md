@@ -1,8 +1,10 @@
 ## Overview
 
-### neuralnetworksanddeeplearning.com integrated scripts for Python 3.5.2 and Theano with CUDA support
+### neuralnetworksanddeeplearning.com integrated scripts for Python 3.5.2 and PyTensor
 
 These scrips are updated ones from the **neuralnetworksanddeeplearning.com** gitHub repository in order to work with Python 3.5.2
+
+network3.py has been ported from Theano to PyTensor. Unfortunately PyTensor does not use CUDA yet.
 
 The testing file (**test.py**) contains all three networks (network.py, network2.py, network3.py) from the book and it is the starting point to run (i.e. *train and evaluate*) them.
 
